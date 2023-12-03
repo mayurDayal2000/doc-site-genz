@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Button } from "antd";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
 
       <main>
         <h1>Create Next App is Working!</h1>
+        <Button type="primary">Default</Button>        
       </main>
     </>
   );
